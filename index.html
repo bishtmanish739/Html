@@ -7,6 +7,52 @@
     <title>HTML Learning </title>
 </head>
 <body>
-    
+    <p>action is used where it should redirect when submiting </p>
+    <p>metho is used for http method GET/POST</p>
+    <form action="">
+        <div>
+            <label for="username">User Name</label>
+        <!-- Autofocus is used to active fild first  -->
+        <input type="text" id="username" autofocus required>
+        </div>
+       
+       <div>
+        <label for="userpassword">User Name</label>
+        <!-- Autofocus is used to active fild first  -->
+        <input type="password" id="userpassword" autofocus required>
+       </div>
+
+        <div>
+            <label for="useraddress">User Address</label>
+        <!-- Autofocus is used to active fild first  -->
+        <textarea name="address" id="useraddress" cols="30" rows="10" autofocus></textarea>
+        </div>
+       <div>
+         <label for="colorpicker"> Pick color</label>
+        <input type="color" id="colorpicker">
+    </div>
+        <div>
+            <label for="selectlist"> Select one </label>
+            <select name="selectlist" id="selectlist">
+
+                <option value="value1" >value1</option>
+                <option value="value2">value2</option>
+                <option value="value3">value3</option>
+                <option value="value4">value4</option>
+                <option value="value5">value5</option>
+            </select>
+        </div>
+        <div>
+            <label for="suggestion"> suggestion</label>
+            <input type="text" list="suggestionlist">
+            <datalist id="suggestionlist">
+                <option value="value1">value1</option>
+                <option value="value2">value2</option>
+                <option value="value3">value3</option>
+                <option value="value4">value4</option>
+                <option value="value5">value5</option>
+            </datalist>
+        </div>
+    </form>
 </body>
 </html>
